@@ -1,14 +1,18 @@
+import React from "react";
 import "./App.css";
 import "./index.css";
-//import { ToastContainer, toast } from "react-toastify";
-//import "react-toastify/dist/ReactToastify.css";
-import HomePage from "./pages/HomePage";
+import Header from "./layout/Header";
+import PageContent from "./layout/PageContent";
+import Footer from "./layout/Footer";
+
 
 function App() {
   return (
-    <div>
-      <HomePage />
-    </div>
+    <>
+      <Header />
+      <PageContent />
+      <Footer />
+      </>
   );
 }
 
