@@ -5,6 +5,7 @@ import ShopCards from "../components/Home/ShopCards";
 import { BestServices } from "../components/Home/BestServices";
 import FeaturedPosts from "../components/Home/FeaturedPosts";
 import WeLoveWhatWeDo from "../components/Home/WeLoveWhatWeDo";
+import Products from "../components/Home/Products";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Hero />
       <Clients />
       <ShopCards />
+      <Products/>
       <WeLoveWhatWeDo/>
       <BestServices/>
       <FeaturedPosts/>

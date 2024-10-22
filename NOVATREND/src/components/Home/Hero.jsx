@@ -22,7 +22,7 @@ export const Hero = () => {
     spaceBetween: 50,
   };
 
-  // 8 adet HeroContent componenti oluşturmak için map kullanıyoruz
+  
   const slides = Array.from({ length: 8 }, (_, index) => (
     <SwiperSlide key={index}>
       <HeroContent />

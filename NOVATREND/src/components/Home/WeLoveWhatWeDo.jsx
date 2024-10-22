@@ -1,6 +1,6 @@
 import React from 'react';
-import welove1 from '../../assets/welove1.jpg'; // Birinci görsel
-import welove2 from '../../assets/welove2.jpg'; // İkinci görsel
+import welove1 from '../../assets/welove1.jpg'; 
+import welove2 from '../../assets/welove2.jpg'; 
 
 const WeLoveWhatWeDo = () => {
   return (

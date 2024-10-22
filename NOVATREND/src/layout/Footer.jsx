@@ -102,7 +102,7 @@ import { Link } from "react-router-dom";
         </div>
         <div className="bg-bgGray flex justify-center">
           <div className="basis-[85%] py-8 font-semibold">
-            <h6 className="max-md:text-center">
+            <h6 className="max-md:text-center text-iconGray">
               Made With Love By Finland All Right Reserved{" "}
             </h6>
           </div>

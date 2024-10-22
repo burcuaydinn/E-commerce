@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="text-sm max-md:pt-6 max-md:px-4 w-full">
-      {/* Üst Bilgi Header-Dark */}
+      
       <div className="bg-navBlueBg text-white flex justify-between w-full max-md:hidden px-5 py-2">
         <div className="flex gap-5 items-center">
           <div className="flex gap-2 items-center">
@@ -27,8 +27,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Alt Bilgi Header-Light */}
-      {/* Ana Navigasyon (Main Navigation) */}
+     
       <article className="flex justify-between px-6 py-3 items-center">
         <div className="flex gap-6 items-center ">
           <h1 className="text-3xl font-bold w-[145px] h-[32px] mt-[13px] font-montserrattext-[24px] leading-[32px] tracking-[0.1px] text-navBlueBg">
