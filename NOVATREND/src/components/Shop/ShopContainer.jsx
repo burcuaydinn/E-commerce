@@ -23,7 +23,7 @@ const ShopContainer = ({ products }) => {
               </div>
 
               {/* Renk Yuvarlakları */}
-              <div className="flex justify-center items-center gap-2 mt-8 mb-3">
+              <div className="flex justify-center items-center gap-2 p-4 mt-8 mb-3">
                 <div className="bg-primary w-[16px] h-[16px] rounded-full"></div>
                 <div className="bg-secondary w-[16px] h-[16px] rounded-full"></div>
                 <div className="bg-alert w-[16px] h-[16px] rounded-full"></div>
